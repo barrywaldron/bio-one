@@ -1,0 +1,17 @@
+{
+    "name": "bio-one",
+    "version": "1.0.0",
+    "description": "bio-0ne projects",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "author": "barrywaldron",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/barrywaldron/bio-one.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
