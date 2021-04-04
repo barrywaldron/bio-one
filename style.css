@@ -7,6 +7,7 @@ body {
   max-width: 980px;
 }
 img {
+  position: relative;
   border-radius: 50%;
   border: solid;
   border-color: #fff;
@@ -14,4 +15,22 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%; 
+  }
+  .nav-link {
+    margin-right: 10px;
+  }
+  .nav-link:last-child {
+    margin-right: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+  }
+  a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 20px;
   }
