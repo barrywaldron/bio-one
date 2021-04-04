@@ -6,16 +6,15 @@ body {
   margin: 0 auto;
   max-width: 980px;
 }
-img {
-  position: relative;
-  border-radius: 50%;
-  border: solid;
-  border-color: #fff;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; 
-  }
+h1 {
+  font-size: 30px;
+  color: #fff;  
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+
   .nav-link {
     margin-right: 10px;
   }
@@ -34,3 +33,13 @@ img {
     text-decoration: none;
     padding: 10px 20px;
   }
+  img {
+    position: relative;
+    border-radius: 50%;
+    border: solid;
+    border-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    }
