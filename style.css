@@ -26,16 +26,23 @@ h2 {
   display: flex;
   justify-content: center;
 }
+nav {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
 
   .nav-link {
-    margin-right: 10px;
+  margin-right: 10px;
+  
   }
   .nav-link:last-child {
     margin-right: 0;
   }
   ul {
-    list-style-type: none;
-      
+    list-style-type: none;    
     
   }
   li {
